@@ -40,6 +40,11 @@ function calculate(num1, num2, operation) {
 
 // 4 - printConsecutives
 
+function printConsecutives(arr) {
+  
+}
+// console.log(printConsecutives([1, 2, 3, 9, 8, 0, 44, 45, 46, 2, 9]))
+// console.log(printConsecutives([0, 0, 0, -3, -2, -1, 0, 1, 2, 3]))
 
 // 5 - letterReverse
 
