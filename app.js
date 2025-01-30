@@ -7,6 +7,11 @@ function printGreeting(name) {
 
 // 2- reverseWordOrder
 
+function reverseWordOrder(string) {
+  return string.split(' ').reverse().join(' ')
+}
+// console.log(reverseWordOrder("me is it Mulder"))
+// console.log(reverseWordOrder("Sure Fine Whatever"))
 
 // 3 - calculate
 
