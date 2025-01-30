@@ -1,5 +1,9 @@
 // 1 - printGreeting
 
+function printGreeting(name) {
+  return `Mulder, it's ${name}`
+}
+// console.log(printGreeting('Scully'))
 
 // 2- reverseWordOrder
 
