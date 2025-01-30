@@ -48,6 +48,16 @@ function printConsecutives(arr) {
 
 // 5 - letterReverse
 
+function letterReverse(string) {
+  const strArr = string.split(' ')
+  const reverseStr = strArr.map(str =>
+    str.split('').reverse().join('')
+  )
+  return reverseStr.join(' ')
+}
+// console.log(letterReverse(`Mulder it's me`))
+// console.log(letterReverse("Luke I am your father"))
+// console.log(letterReverse("Aren't you a little short for a storm trooper"))
 
 // 6 - calculateCube
 
